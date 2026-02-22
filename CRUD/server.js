@@ -93,7 +93,7 @@ app.delete("/delete",async(req,res)=>{
 
 })
 
-mongoose.connect("mongodb+srv://vasumukku:vasu12345@vasu-01.gdjpkob.mongodb.net/CRUD")
+mongoose.connect("mongodb+srv://vasumukku:<password>@vasu-01.gdjpkob.mongodb.net/CRUD")
 .then(()=>{
     console.log("Database is connected");
     app.listen(4000,()=>{
