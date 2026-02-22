@@ -168,7 +168,7 @@ app.patch("/update",async(req,res)=>{
 })
 
 
-mongoose.connect("mongodb+srv://vasumukku:vasu12345@vasu-01.gdjpkob.mongodb.net/DbValidation")
+mongoose.connect("mongodb+srv://vasumukku:<password>@vasu-01.gdjpkob.mongodb.net/DbValidation")
 .then(()=>{
     console.log("Database is connected....")
     app.listen(400,()=>{
