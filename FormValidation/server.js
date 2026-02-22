@@ -28,7 +28,7 @@ app.use("/", authRoutes);
 
 
 
-mongoose.connect("mongodb+srv://vasumukku:vasu12345@vasu-01.gdjpkob.mongodb.net/formValidation") 
+mongoose.connect("mongodb+srv://vasumukku:<password>@vasu-01.gdjpkob.mongodb.net/formValidation") 
 .then(()=>{
   console.log("Database connected ........")
   app.listen(PORT,()=>{
