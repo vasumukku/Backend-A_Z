@@ -16,7 +16,7 @@ app.post("/sign",async(req,res)=>{
 
 
 mongoose.
-connect("mongodb+srv://vasumukku:vasu12345@vasu-01.gdjpkob.mongodb.net/devnew")
+connect("mongodb+srv://vasumukku:<password>@vasu-01.gdjpkob.mongodb.net/devnew")
 .then(()=>{
     console.log("database is connected");
     app.listen(4000,()=>{
