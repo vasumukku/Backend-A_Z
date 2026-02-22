@@ -70,7 +70,7 @@ app.patch("/update",async(req,res)=>{
 })
 
 
-mongoose.connect("mongodb+srv://vasumukku:vasu12345@vasu-01.gdjpkob.mongodb.net/newdb")
+mongoose.connect("mongodb+srv://vasumukku:<password>@vasu-01.gdjpkob.mongodb.net/newdb")
 .then(()=>{
     console.log("db connected")
     app.listen(6000,()=>{
