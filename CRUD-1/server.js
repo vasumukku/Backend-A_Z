@@ -124,7 +124,7 @@ app.use("/", requestRoutes);
 
 
 mongoose
-  .connect("mongodb+srv://vasumukku:vasu12345@vasu-01.gdjpkob.mongodb.net/CRUD-1")
+  .connect("mongodb+srv://vasumukku:<password>@vasu-01.gdjpkob.mongodb.net/CRUD-1")
   .then(() => {
     console.log("Database connected...");
     app.listen(4000, () => {
